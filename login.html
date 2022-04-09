@@ -1,41 +1,26 @@
-<section>
+<link rel="stylesheet" href="login.css">
+<div id="container">
   
-  <div class="box">
-  <link rel="stylesheet" href="login.css">
-    
-    <div class="square" style="--i:0;"></div>
-    <div class="square" style="--i:1;"></div>
-    <div class="square" style="--i:2;"></div>
-    <div class="square" style="--i:3;"></div>
-    <div class="square" style="--i:4;"></div>
-    <div class="square" style="--i:5;"></div>
-    
-   <div class="container"> 
-    <div class="form"> 
-      <h2>LOGIN to CodePen</h2>
-      <form action="">
-        <div class="inputBx">
-          <input type="text" required="required">
-          <span>Login</span>
-          <i class="fas fa-user-circle"></i>
-        </div>
-        <div class="inputBx password">
-          <input id="password-input" type="password" name="password" required="required">
-          <span>Password</span>
-          <a href="#" class="password-control" onclick= "return show_hide_password(this);"></a>
-          <i class="fas fa-key"></i>
-        </div>
-        <label class="remember"><input type="checkbox">
-          Remember</label>
-        <div class="inputBx">
-          <input type="submit" value="Log in" disabled> 
-        </div>
-      </form>
-      <p>Forgot password? <a href="#">Click Here</a></p>
-      <p>Don't have an account <a href="#">Sign up</a></p>
-    </div>
-    <script src="login.js"></script>
+  <div id="left">
+    <h1 id="welcome">Welcome</h1>
   </div>
+  <div id="right">
+    <h1 id="login">LogIn</h1><br>
+    <input type="email" id="email" class="client-info">
+    <label for="email">Email</label>
+    <input type="password" id="password" class="client-info">
+    <label for="password">Password</label>
+    <a href="homepageout.html" style="text-decoration: none;">
+      <input type="submit" id="submit" class="client-info" value="LogIn">
+    </a>
+    <a href="singnup.html" style="text-decoration: none;">
+      <button class="social" id="signup">Sign up</button>
+    </a>
+    <a href="forgotpass.html" style="text-decoration: none;">
+      <button class="social" id="signup">forgot password</button>
+    </a>
     
   </div>
-</section>
+  <script src="login.js"></script>
+  
+</div>
