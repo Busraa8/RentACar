@@ -1,0 +1,114 @@
+.wrapper2 {/*bir bölüm*/
+    width: auto;
+    height: 600px;
+    height: 90%;
+    background-color: rgba(224, 222, 222, 0.5);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .Containerr {
+    width: 100%;
+    height: 200%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .headerr {
+    text-align: center;
+  }
+  .headerr h1 {
+    font-family: "Abel", sans-serif;
+    font-size: 4rem;
+    font-weight: 600;
+    letter-spacing: 0.2rem;
+    color: white;
+    padding: 45% 20px 8px;
+  }
+  .headerr h2{/*about*/
+  
+    font-family: "Abel", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: 0.2rem;
+    color: rgb(0, 0, 0);
+    padding: 10px 15px;
+  
+  }
+  .headerr p {
+    font-family: "Abel", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: 0.2rem;
+    color: white;
+    padding: 10px 15px;
+  }
+  .wrapperr {/*bir bölüm*/
+    width: auto;
+    height: 600px;
+   
+    
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("http://www.pamukkalerentacar.net/webhox/resim/211b9b92e8ffcc2321273a3378453c3e.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  
+  }
+  #electrique {
+    background-image: url(https://www.audi.fr/content/dam/nemo/models/e-tron/audi-e-tron/my-2019/1920x1080_gallery/1920_1080_A_E-TRON_181039.jpg);
+  }
+  
+  
+  #disponibles {
+    background-image: url(https://audimediacenter-a.akamaihd.net/system/production/media/94172/images/5fd4b3e87a98fe7c2dea6f433b35c2151d0d9bd2/A205468_blog.jpg?1600111174);
+  }
+  
+  #rs {
+    background-image: url(https://www.scheidweg-garage.ch/wp-content/uploads/2019/08/Audi-RS6-Avant-Scheidweg-Garage-11.jpg);
+  
+    
+    
+ }
+ .sectionn {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85%;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    transition: flex .4s ease;
+    position: relative;
+  }
+  
+  .sectionn .overlay {
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transition: background-color .8s ease;
+  }
+  
+  .sectionn .content {
+    z-index: 2;
+  }
+  
+  .sectionn:hover {
+    flex: 2;
+  }
+  
+  .sectionn:hover .overlay {
+    background-color: rgba(0, 0, 0, 0.25);
+  }
+
+  .wrappercontact {
+    width: auto;
+    height: 100%;
+    height: 60%;
+    background-color: rgba(224, 222, 222, 0.5);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
